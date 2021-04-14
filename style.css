@@ -106,16 +106,17 @@ span {color: #f8b803;}
     border-color: rgba(184, 173, 173, 0.1);
            }
   .big-sale {display: flex;
-            flex-direction: row;
+            flex-direction: row;align-items: flex-start;
             }
 
   .starting-from{display: flex; 
                  flex-direction:row;
                  align-items:center;
-                 background-image: url(img/drums.webp);
+                 background-image:url(img/drumss.jpg);
                 }
 
     .off{display: flex;
         flex-direction:row;
-        background-image: url(img/gutiar15%sale.webp);
+        align-items:center;
+        background-image:url(img/15%g.jpg);
         }
