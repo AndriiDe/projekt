@@ -5,7 +5,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#home {
+#home {text-align: end;
+    
     width: auto;
     margin: auto;
     padding-bottom: 0;
@@ -14,11 +15,11 @@ body {
 }
 
 .top {
-    display: flex;
+    display: inline;
     justify-content: space-around;
     align-items: center;
     display: grid;
-    grid-template-columns: 40% 1% 10%;
+    grid-template-columns: 28% 1% 30%;
     width: auto;
 }
 
@@ -47,9 +48,9 @@ body {
     flex-direction: row;
     width: 95px;
     height: 30px;
-    margin: -58px;
-    margin-left: 90px;
-    ;
+    
+    margin-left: 40px;
+    margin-right: -25px;
     margin-top: 55px;
 }
 
@@ -70,7 +71,8 @@ a:hover {
 .social-media {
     display: flex;
     justify-content: space-between;
-    padding-left: 190px;
+    padding-left: -130px;
+    margin: auto;
     align-self: center;
 }
 
@@ -210,11 +212,19 @@ hr {
     background-size: 180%;
     background-position-x: left -320px;
 }
-.logo-carousel {display:table-row;
-flex-direction:column;
-padding: 222px;
-margin-top: 343px;}
 
-/*
-    code by Iatek LLC 2018 - CC 2.0 License - Attribution required
-    code customized by Azmind.com
+
+  
+    .title {
+      font-size: 7em;
+      opacity: 0.6;
+    }
+  .slider {
+      display: inline-flex;
+      width: 10%; height: 10%;
+      
+  }
+    
+ 
+    /*carousel  */ 
+
