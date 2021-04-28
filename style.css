@@ -242,6 +242,7 @@ hr {
   max-width: 100%;
   text-align: center;
   font-size: 100%;
+  
 }
 /*tab cart*/
 .active{
@@ -252,40 +253,48 @@ hr {
     text-align: center;
 }
 .mega {
-    display:inline-flex; 
-
+    display:flex; 
+ justify-items: center;
+ align-self:center;
     flex-direction:row;
     align-items: center;
-    margin: auto; padding:auto; 
+    margin: auto; padding:a; 
 } 
 .best-selling {
-    display: flex; justify-self: start;
-    justify-content: flex-start;
+    display: flex;
+    flex-direction: column; 
+    justify-self: flex-start;
+    justify-content: center;
     justify-items:auto;
-    align-content:space-between;
-    align-self:auto;margin: auto;
+    align-content:center;
+    align-self:flex-start;margin:25px;
     padding: auto;
+    padding-left: 25px;
     background-image:url(img/guitarred-font.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    justify-self: flex-start; 
-    width: 500px; height: 300px;
+    justify-self:end; 
+    width: 620px; height: 380px;
+    background-color: rgb(224, 224, 222);
 }
 .megasale {
     display: flex;  
-    text-align:end;
-    justify-content:start;
+    text-align:start;
+    justify-content:center;
     align-self: flex-start;
     align-content: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-self:end;
-    margin: auto;
-    padding:auto;
+    margin: 25px;
+    margin-top: 25px;
+    padding:auto;padding-left: 25px;
     background-image: url(img/guitar-lespaul.webp);
-    width: 500px; height: 300px; 
+    width: 620px; height: 380px; 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
+.shopbest {
+    text-align: center;
+}
