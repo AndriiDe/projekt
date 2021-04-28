@@ -1,9 +1,9 @@
 body {
-    margin: auto;
-    padding: auto;
-    max-width: 1300px;
+    margin:auto;
+    padding:auto;
+    max-width:1300px;
     font-family: Arial, Helvetica, sans-serif;
-}
+     }
 
 #home {text-align: end;
     
@@ -43,7 +43,7 @@ body {
     margin-right: 150px;
 }
 
-#nav {
+.nav {
     display: flex;
     flex-direction: row;
     width: 95px;
@@ -120,7 +120,7 @@ h3 {
 
 hr {
     display: inline-flex;
-    margin-top: -166px;
+    margin-top: -166px; width: 60px;
 }
 
 .any {
@@ -146,7 +146,7 @@ hr {
     margin-top: 30px;
 }
 
-#delivery {
+.delivery {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,7 +192,7 @@ hr {
     padding-right: 22px;
     margin: auto;
 }
-#spanbigsale{color: rgb(239, 242, 243);}
+.spanbigsale{color: rgb(239, 242, 243);}
 .off {
     display: flex;
     flex-direction: column;
@@ -213,20 +213,20 @@ hr {
     background-size: 180%;
     background-position-x: left -320px;
 }
-
-
-  
-    .title {
-      font-size: 7em;
-      opacity: 0.6;
-    }
-  .slider {
-      display: inline-flex;
-      width: 10%; height: 10%;
+.title {
+    font-size: 7em;
+    opacity: 0.6;
+}
+.slider {
+    display: flex;
+    flex-direction: column;
+    width: 10%; height: 10%;
       
-  }
+}
     
- .carousel-cart {display: inline-flex;
+.carousel-cart {
+    display: inline-flex;
+    margin: 20px; padding: 20px;
      
  } 
 
@@ -244,8 +244,48 @@ hr {
   font-size: 100%;
 }
 /*tab cart*/
-.active{width: auto;}
+.active{
+    width: auto;
+}
 .carousel-item{
     background-color:none;
     text-align: center;
 }
+.mega {
+    display:inline-flex; 
+
+    flex-direction:row;
+    align-items: center;
+    margin: auto; padding:auto; 
+} 
+.best-selling {
+    display: flex; justify-self: start;
+    justify-content: flex-start;
+    justify-items:auto;
+    align-content:space-between;
+    align-self:auto;margin: auto;
+    padding: auto;
+    background-image:url(img/guitarred-font.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-self: flex-start; 
+    width: 500px; height: 300px;
+}
+.megasale {
+    display: flex;  
+    text-align:end;
+    justify-content:start;
+    align-self: flex-start;
+    align-content: center;
+    flex-direction: row;
+    justify-self:end;
+    margin: auto;
+    padding:auto;
+    background-image: url(img/guitar-lespaul.webp);
+    width: 500px; height: 300px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
