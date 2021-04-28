@@ -133,6 +133,7 @@ hr {
     justify-items: flex-end;
     color: rgb(202, 164, 13);
     border: gold;
+    width: 100px;
 }
 
 .block-info {
@@ -206,7 +207,7 @@ hr {
     margin: auto;
     height: 400px;
     width: 580px;
-    background-image: url(img/gutiar15%sale.webp);
+    background-image: url(img/promo-last-background.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 180%;
@@ -225,6 +226,26 @@ hr {
       
   }
     
- 
-    /*carousel  */ 
+ .carousel-cart {display: inline-flex;
+     
+ } 
 
+.shop-now-button {
+  background-color: rgb(248, 184, 3);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 25px;
+}
+.new-arrivals {
+  margin: 0;
+  max-width: 100%;
+  text-align: center;
+  font-size: 100%;
+}
+/*tab cart*/
+.active{width: auto;}
+.carousel-item{
+    background-color:none;
+    text-align: center;
+}
