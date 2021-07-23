@@ -67,7 +67,7 @@ a:link {
 }
 a:visited{ color: rgba(243, 237, 237, 0.918);}
 a:hover {
-    color: rgba(102, 99, 99, 0.918);
+    color: rgba(0, 0, 0, 0.918);
 }
 
 .menu-top {
@@ -86,10 +86,18 @@ a:hover {
    
    
 }
-
+#icon {
+    color: black; 
+ }
+ 
+ #icon:hover {
+   color: orange;
+ }
 .buttonsocial {
     width: 60px; height: 60px;
+    
     }
+
 .first-block-shop-now {
     display: flex;
     flex-direction: column;
@@ -125,12 +133,16 @@ span {
     margin-left: -1px;
     
 }
-.add-cart {
+.add-cart {color:#fff;
     background-color: rgb(22, 21, 21);
     width: 125px; height: 50px;
     
     }
-    
+    .add-cart:hover {
+        background-color: rgb(248, 184, 3);
+    }
+    .add-cart:active {
+        box-shadow: inset 2px 2px 3px rgba(0, 0, 0, .6);}  
 h2 {
     font-size: 54px;
     font-weight: 500;
@@ -157,6 +169,11 @@ hr {
   font-size: 16px;
   padding: 15px 25px;
 }
+#shop-now:hover {
+    background-color: rgb(0, 0, 0);
+}
+#shop-now:active {
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, .6);}
 
 .block-info {
     display: flex;
@@ -274,13 +291,17 @@ hr {
      
  } 
 
-.shop-now-button {
-  background-color: rgb(248, 184, 3);
-  border-radius: 4px;
-  color: #fff;
-  font-size: 16px;
-  padding: 15px 25px;
-}
+.favorite-styled { background-color: rgb(248, 184, 3);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding:  15px 25px;}
+    .favorite-styled:hover {
+        background-color: rgb(43, 41, 41);
+    }
+    .favorite-styled:active {
+        box-shadow: inset 2px 2px 3px rgba(0, 0, 0, .6);}   
+    
 .new-arrivals {
   
   max-width: 100%;
@@ -527,3 +548,13 @@ position: absolute;
 
 #tab-1:checked ~ .content-1,
 #tab-2:checked ~ .content-2 {display:none;}
+#clock{
+    font-family:Tahoma, sans-serif;
+    font-size:25px;
+    font-weight:bold;
+    color:#d2d2dd;
+    display: flex;
+    margin-right:-200px;
+    padding-right:-300px;
+
+  }
